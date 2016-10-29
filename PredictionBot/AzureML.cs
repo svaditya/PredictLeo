@@ -52,7 +52,7 @@ namespace PredictionBot
                     {
                     }
                 };
-                const string apiKey = "YZ56W7aNKsNnrgRLAuqZozE80HFsdhPf+ewICzEypURPHX0ZZI9Q8BSdQaTXvEXM3PP1+uSi4kdMxig7kkBHQg=="; // Replace this with the API key for the web service
+                const string apiKey = "abc123"; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
                 client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/50bca197e8fb4568a83d4da3662674fe/services/4d871264a4784dd49c6a795241ad14f4/execute?api-version=2.0&details=true");
